@@ -1,5 +1,7 @@
 # Laravel Parse API Test Task
 
+# USE Ключ FROM THE API: https://privnote.com/hLae7zHq
+
 Console application that fetches paginated API data (stocks, incomes, sales, orders) with concurrent processing and background job queuing.
 
 ## Setup
