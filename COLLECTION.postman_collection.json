@@ -1,0 +1,175 @@
+{
+	"info": {
+		"_postman_id": "0e3520de-cf58-4d00-8503-0293b7650ee4",
+		"name": "COLLECTION",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46530146",
+		"_collection_link": "https://www.postman.com/cy322666/app-api-test/collection/27is1lw/collection?action=share&source=collection_link&creator=46530146"
+	},
+	"item": [
+		{
+			"name": "STOCKS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{protocol}}{{host}}:{{port}}/api/stocks?dateFrom=&dateTo=&page=1&key=&limit=100",
+					"host": [
+						"{{protocol}}{{host}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"api",
+						"stocks"
+					],
+					"query": [
+						{
+							"key": "dateFrom",
+							"value": ""
+						},
+						{
+							"key": "dateTo",
+							"value": ""
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "key",
+							"value": ""
+						},
+						{
+							"key": "limit",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "INCOMES",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{protocol}}{{host}}:{{port}}/api/incomes?dateFrom=&dateTo=&page=1&key=&limit=100",
+					"host": [
+						"{{protocol}}{{host}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"api",
+						"incomes"
+					],
+					"query": [
+						{
+							"key": "dateFrom",
+							"value": ""
+						},
+						{
+							"key": "dateTo",
+							"value": ""
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "key",
+							"value": ""
+						},
+						{
+							"key": "limit",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SALES",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{protocol}}{{host}}:{{port}}/api/sales?dateFrom=&dateTo=&page=1&key=&limit=100",
+					"host": [
+						"{{protocol}}{{host}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"api",
+						"sales"
+					],
+					"query": [
+						{
+							"key": "dateFrom",
+							"value": ""
+						},
+						{
+							"key": "dateTo",
+							"value": ""
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "key",
+							"value": ""
+						},
+						{
+							"key": "limit",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ORDERS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{protocol}}{{host}}:{{port}}/api/orders?dateFrom=&dateTo=&page=1&key=&limit=100",
+					"host": [
+						"{{protocol}}{{host}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"api",
+						"orders"
+					],
+					"query": [
+						{
+							"key": "dateFrom",
+							"value": ""
+						},
+						{
+							"key": "dateTo",
+							"value": ""
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "key",
+							"value": ""
+						},
+						{
+							"key": "limit",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
