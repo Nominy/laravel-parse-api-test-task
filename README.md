@@ -1,4 +1,4 @@
-# Laravel API Data Fetcher
+# Laravel Parse API Test Task
 
 Console application that fetches paginated API data (stocks, incomes, sales, orders) with concurrent processing and background job queuing.
 

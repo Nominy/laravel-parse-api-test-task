@@ -1,8 +1,8 @@
 {
-    "name": "laravel/laravel",
+    "name": "laravel-parse-api-test-task/laravel-parse-api-test-task",
     "type": "project",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "description": "Laravel API parsing test task application.",
+    "keywords": ["framework", "laravel", "api", "parsing", "test-task"],
     "license": "MIT",
     "require": {
         "php": "^8.0.2",
